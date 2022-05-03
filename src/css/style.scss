@@ -351,7 +351,7 @@ main {
     height: 80%;
     width: 20vw;
     transform: translate(0, -50%);
-    margin-right: calc((100% - 1080px) / 2);
+    margin-right: 10%;
     display: flex;
     flex-direction: column;
 
@@ -390,13 +390,16 @@ main {
     img.mv_picture.-index, img.mv_letters {
       display: none;
     }
-    img.mv_picture_sp {
+    img.mv_picture_sp.-index {
       display: block;
       height: calc(100vw * 1667 / 1250);
     }
     img.mv_picture.-about {
       object-fit: cover;
       height: 100vh;
+    }
+    .mv_side {
+      display: none;
     }
   }
 }
