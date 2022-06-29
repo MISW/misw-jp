@@ -28,3 +28,5 @@ jobs:
       run: pnpm i --frozen-lockfile
     - name: Build CSS
       run: pnpm run css:build
+    - name: Build the Docker image
+      run: docker build . -t misw:misw-jp
