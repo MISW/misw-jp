@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:gallium-bullseye-slim
 
 RUN npm install -g pnpm
 
