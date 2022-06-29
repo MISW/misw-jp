@@ -3,10 +3,12 @@
     "css:build": "sass src/css/style.scss src/css/style.css",
     "css:watch": "sass --watch src/css/style.scss src/css/style.css",
     "start": "http-server src/ -p 8080 -o",
-    "test": "sass src/css/style.scss src/css/style.css && http-server src/ -p 8080 -o"
+    "test": "pnpm run css:build && pnpm run start"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   },
   "devDependencies": {
-    "http-server": "^14.1.1",
     "sass": "^1.53.0"
   }
 }
