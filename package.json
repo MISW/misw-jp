@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "css:build": "sass src/css/style.scss src/css/style.css",
-    "css:watch": "sass --watch src/css/style.scss src/css/style.css",
+    "sass:build": "sass src:src",
+    "sass:watch": "sass --watch src:src",
     "docker": "http-server src/ -p 8080",
     "start": "http-server src/ -p 8080 -o",
-    "test": "pnpm run css:build && pnpm run start"
+    "test": "pnpm sass:build && pnpm start"
   },
   "dependencies": {
     "http-server": "^14.1.1"

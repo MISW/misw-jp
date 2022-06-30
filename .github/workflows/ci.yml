@@ -25,8 +25,8 @@ jobs:
         node-version: 16.x
         cache: 'pnpm'
     - name: Install dependencies
-      run: pnpm i --frozen-lockfile
-    - name: Build CSS
-      run: pnpm run css:build
+      run: pnpm i --frozen-lockfile --dev
+    - name: Build Sass
+      run: pnpm sass:build
     - name: Build the Docker image
       run: docker build . -t misw:misw-jp

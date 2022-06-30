@@ -8,7 +8,7 @@ COPY src/ ./src/
 
 RUN pnpm i --frozen-lockfile --dev
 
-RUN pnpm run css:build
+RUN pnpm sass:build
 
 RUN rm -rf node_modules/
 
