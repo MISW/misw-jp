@@ -71,7 +71,7 @@ $(function() {
     $(this).toggleClass('open');
     $('.header-nav').toggleClass('open');
   });
-  
+
   $(document).click(function(event){
     var target = $(event.target);
     if(target.hasClass('hamburger-wrap')) {

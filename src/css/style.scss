@@ -280,7 +280,7 @@ a:active, a:active > * {
   background-color: #686868;
   text-align: center;
   margin: 35px;
-  
+
   &::after {
     position: absolute;
     top: 55%;
@@ -294,7 +294,7 @@ a:active, a:active > * {
     box-sizing: border-box;
     animation: popping 2.5s infinite;
   }
-  
+
   @media screen and (max-width:767px) {
     width: 9vw;
     height: 9vw;
@@ -303,7 +303,7 @@ a:active, a:active > * {
     border-width: 2px;
     margin: 5vw;
   }
-  
+
   &:hover {
     text-decoration: none;
     opacity: 0.7;
@@ -326,7 +326,7 @@ main {
   height: 50vw;
   position: relative;
   overflow: hidden;
-  
+
   img.mv_picture{
     object-fit: contain;
   }
@@ -481,7 +481,7 @@ main {
       width:100%;
       display: flex;
       justify-content: space-around;
-      
+
       li {
         width: 15vw;
         a {
@@ -570,7 +570,7 @@ main {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
-    
+
     &-txt{
       width: 66%;
       border: solid 5px;
@@ -613,7 +613,7 @@ main {
     &.-midi {
       .about-content-txt {
         border-color: $midi;
-      }    
+      }
     }
 
     @media screen and (max-width:767px) {
@@ -694,7 +694,7 @@ main {
           }
           table {
             width: 100%;
-            
+
             tr {
               &:nth-child(odd) {
                 font-size: 18px;
@@ -704,14 +704,14 @@ main {
                   &:nth-child(#{$n}) {
                     td:first-child {
                       background-color: hsl($n * 15, 80%, 80%);
-                    } 
+                    }
                   }
                 }
                 $i: 1;
                 @for $i from 1 through 24 {
                   @include month-color($i)
                 }
-                
+
                 td {
                   padding: 0.2rem 0;
                   &:first-child {
@@ -734,7 +734,7 @@ main {
                   }
                 }
               }
-              
+
               &:nth-child(even) {
                 font-size: 16px;
                 td {
@@ -831,7 +831,7 @@ main {
   align-items: center;
   border-bottom: 2px solid #2b2b2b;
   background-color: #456280;
-  
+
   .main-content-center {
     margin: 0.3rem;
     text-align: center;
@@ -839,7 +839,7 @@ main {
 
   .credits {
     margin: 0 auto;
-    
+
     & * {
       color: white;
       margin: 0;
@@ -850,7 +850,7 @@ main {
     }
     // .links {
     //   margin: 30px 0;
-      
+
     //   a {
     //     margin: 0 1rem;
     //     color: #456280;
@@ -865,11 +865,11 @@ main {
     //     display: inline;
     //   }
     // }
-    
+
     .social-area-syncer ul {
       border: none;
       list-style-type: none;
-      justify-content: center;     
+      justify-content: center;
       width: 75%;
       margin: 20px auto;
       li {
@@ -893,13 +893,13 @@ main {
     }
   }
 
-  @media screen and (max-width:767px) { 
+  @media screen and (max-width:767px) {
     padding: 3vw;
     width: auto;
     align-items: center;
     border-bottom: 2px solid #2b2b2b;
     background-color: #456280;
-  
+
     .credits > * {
       margin: 1vh 0;
     }
