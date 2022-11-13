@@ -298,7 +298,6 @@ a:active > * {
   height: 70px;
   border-radius: 50%;
   border: 2px solid #2b2b2b;
-  // background-color: #686868;
   text-align: center;
   margin: 35px;
 
@@ -794,22 +793,6 @@ main {
       background-position: center center;
       position: relative;
       overflow: hidden;
-      @mixin bg_image($n) {
-        // background-image: url(../img/kanbu/#{$n}.jpg);
-      }
-      @mixin bg_image_b($n) {
-        // background-image: url(../img/kanbu/#{$n}_b.jpg);
-      }
-      $i: 0;
-      @for $i from 0 to 6 {
-        &:nth-child(#{$i + 1}) {
-          @include bg_image_b($i);
-
-          .kanbu-img {
-            @include bg_image($i);
-          }
-        }
-      }
 
       * {
         z-index: 10;
@@ -884,23 +867,6 @@ main {
       color: white;
       margin: 15px 0;
     }
-    // .links {
-    //   margin: 30px 0;
-
-    //   a {
-    //     margin: 0 1rem;
-    //     color: #456280;
-    //     background-color: #fff;
-    //     padding: 0.2rem;
-    //   }
-    //   a:first-child {
-    //     margin-left: 0;
-    //   }
-    //   img {
-    //     width: 1rem;
-    //     display: inline;
-    //   }
-    // }
 
     .social-area-syncer ul {
       border: none;
