@@ -31,5 +31,5 @@ kanbu:
     image: 'img/kanbu/5.jpg'
 
 event:
-  url: "http://event.misw.jp/wasedasai2022"
-  image: "https://event.misw.jp/wasedasai2022/img/ogp.png"
+  url: 'http://event.misw.jp/wasedasai2022'
+  image: 'https://event.misw.jp/wasedasai2022/img/ogp.png'
