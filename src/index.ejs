@@ -47,11 +47,7 @@
           <img class="mv_picture -index" src="img/top-pc-back-1.png" alt="メインビジュアル" />
           <img class="mv_letters -index" src="img/top-pc-back-2.png" alt="メインビジュアル" />
           <div class="mv_side">
-            <div class="event">
-              <a href="http://event.misw.jp/wasedasai2022" target="_blank" rel="noopener noreferrer"
-                ><img src="https://event.misw.jp/wasedasai2022/img/ogp.png" alt="イベントサイトへのリンク"
-              /></a>
-            </div>
+            <%- include('_event', {event: event}) %>
             <div class="timeline">
               <a class="twitter-timeline" href="https://twitter.com/misw_info?ref_src=twsrc%5Etfw">Tweets by misw_info</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

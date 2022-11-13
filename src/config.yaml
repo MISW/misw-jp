@@ -29,3 +29,7 @@ kanbu:
     name: '9W3R7Y'
     group: 'MIDI研'
     image: 'img/kanbu/5.jpg'
+
+event:
+  url: "http://event.misw.jp/wasedasai2022"
+  image: "https://event.misw.jp/wasedasai2022/img/ogp.png"
