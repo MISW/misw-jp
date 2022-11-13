@@ -298,7 +298,7 @@ a:active > * {
   height: 70px;
   border-radius: 50%;
   border: 2px solid #2b2b2b;
-  background-color: #686868;
+  // background-color: #686868;
   text-align: center;
   margin: 35px;
 
@@ -309,8 +309,8 @@ a:active > * {
     content: '';
     width: 30%;
     height: 30%;
-    border-right: 1px solid #fff;
-    border-top: 1px solid #fff;
+    border-right: 1px solid #2b2b2b;
+    border-top: 1px solid #2b2b2b;
     transform: translate(-50%, -50%) rotate(-45deg);
     box-sizing: border-box;
     animation: popping 2.5s infinite;
@@ -792,11 +792,13 @@ main {
       border-radius: 5%;
       background-size: cover;
       background-position: center center;
+      position: relative;
+      overflow: hidden;
       @mixin bg_image($n) {
-        background-image: url(../img/kanbu/#{$n}.jpg);
+        // background-image: url(../img/kanbu/#{$n}.jpg);
       }
       @mixin bg_image_b($n) {
-        background-image: url(../img/kanbu/#{$n}_b.jpg);
+        // background-image: url(../img/kanbu/#{$n}_b.jpg);
       }
       $i: 0;
       @for $i from 0 to 6 {
@@ -807,6 +809,11 @@ main {
             @include bg_image($i);
           }
         }
+      }
+
+      * {
+        z-index: 10;
+        position: relative;
       }
 
       h4 {
@@ -826,6 +833,16 @@ main {
         color: #fff;
         font-size: 16px;
         line-height: 1.8;
+      }
+      .kanbu-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        object-fit: cover;
+        filter: brightness(0.4);
       }
 
       @media screen and (max-width: 767px) {
