@@ -1,23 +1,10 @@
 <!DOCTYPE html>
-<html lang="ja" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:url" content="https://misw.jp/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="MIS.W 公式サイト" />
-    <meta property="og:description" content="早稲田大学最大のデジタル創作サークルである早稲田大学経営情報学会・MIS.Wの公式サイトです。" />
-    <meta property="og:image" content="https://misw.jp/img/twitter-card.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://misw.jp/img/twitter-card.jpg" />
-    <meta name="twitter:site" content="@misw_info" />
-
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns#">
     <title>MIS.W 公式サイト</title>
-    <link rel="shortcut icon" href="img/mislogo.ico" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <meta property="og:url" content="https://misw.jp/" />
+    <meta property="og:title" content="MIS.W 公式サイト" />
+    <%- include('_header') %>
   </head>
   <body>
     <div id="wrapper" class="wrapper">
@@ -60,11 +47,7 @@
           <img class="mv_picture -index" src="img/top-pc-back-1.png" alt="メインビジュアル" />
           <img class="mv_letters -index" src="img/top-pc-back-2.png" alt="メインビジュアル" />
           <div class="mv_side">
-            <div class="event">
-              <a href="http://event.misw.jp/wasedasai2022" target="_blank" rel="noopener noreferrer"
-                ><img src="https://event.misw.jp/wasedasai2022/img/ogp.png" alt="イベントサイトへのリンク"
-              /></a>
-            </div>
+            <%- include('_event', {event: event}) %>
             <div class="timeline">
               <a class="twitter-timeline" href="https://twitter.com/misw_info?ref_src=twsrc%5Etfw">Tweets by misw_info</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -241,56 +224,8 @@
           </section>
         </div>
       </main>
-
-      <footer id="footer">
-        <div class="credits flex-column">
-          <h2>MIS.W 公式サイト</h2>
-          <div class="flex">
-            <!-- credits -->
-          </div>
-          <div class="social-area-syncer main-content-center">
-            <p>SHARE</p>
-            <ul class="flex">
-              <li>
-                <a
-                  href="https://twitter.com/share?url=https://misw.jp/&text=MIS.W 公式サイト&via=misw_info&related=misw_info"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow">
-                  <img src="img/Twitter social icons - circle - blue.svg" alt="Twitterシェアボタン" />
-                </a>
-              </li>
-              <li>
-                <a href="http://www.facebook.com/share.php?u=https://misw.jp/" target="_blank" rel="noopener noreferrer"
-                  ><img src="img/f_logo_RGB-Blue_100.png" alt="Facebookシェアボタン"
-                /></a>
-              </li>
-              <li>
-                <a href="https://social-plugins.line.me/lineit/share?url=https://misw.jp/" target="_blank" rel="noopener noreferrer">
-                  <img src="img/LINE_APP_Android.png" alt="LINEシェアボタン" />
-                </a>
-              </li>
-            </ul>
-            <div id="fb-root"></div>
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="5rC6E0YM"></script>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
-          </div>
-          <div class="contact main-content-center">
-            <p>お問い合わせ</p>
-            <p class="contact-txt">
-              メールアドレス: misw.info☆gmail.com(☆を@に直して送信してください)<br />
-              Twitter(<a href="http://twitter.com/misw_info" target="_blank" rel="noopener noreferrer">@misw_info</a
-              >)のダイレクトメッセージにお送りいただくこともできます。
-            </p>
-          </div>
-          <div class="copyrights main-content-center">
-            <p>Copyright © 2018-2022 MIS.W All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <%- include('_footer') %>
     </div>
-    <!-- Cloudflare Web Analytics -->
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "cbd01129ec434bb5bee15b2ee3a6069e"}'></script>
-    <!-- End Cloudflare Web Analytics -->
+    <%- include('_analytics') %>
   </body>
 </html>
