@@ -11,7 +11,6 @@ const uglify = require('gulp-uglify-es').default;
 const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
 const browserSync = require('browser-sync');
-// const spoosh = require('gulp-squoosh');
 
 function build_ejs(cb) {
   const data = yaml.load(fs.readFileSync('./src/config.yaml', 'utf8'));
@@ -54,7 +53,6 @@ function build_img(cb) {
   gulp
     .src(['./src/img/**/*'])
     .pipe(plumber(notify.onError('Error: <%= error.message %>')))
-    // .pipe(spoosh())
     .pipe(gulp.dest('./dist/img/'));
   cb();
 }
