@@ -13,7 +13,7 @@ const notify = require('gulp-notify');
 const browserSync = require('browser-sync');
 
 function build_ejs(cb) {
-  const data = yaml.load(fs.readFileSync('./src/config.yaml', 'utf8'));
+  const data = yaml.load(fs.readFileSync('./config.yaml', 'utf8'));
   gulp
     .src(['./src/**/*.ejs', '!' + './src/**/_*.ejs'])
     .pipe(plumber(notify.onError('Error: <%= error.message %>')))
@@ -85,7 +85,7 @@ exports.clean = clean;
 
 function watch(cb) {
   gulp.watch(['./src/**/*.ejs'], build_ejs);
-  gulp.watch(['./src/config.yaml'], build_ejs);
+  gulp.watch(['./config.yaml'], build_ejs);
   gulp.watch(['./src/**/*.sass', './src/**/*.scss'], build_sass);
   gulp.watch(['./src/**/*.js'], build_js);
   gulp.watch(['./src/img/**/*'], build_img);

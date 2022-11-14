@@ -4,7 +4,7 @@
     <title>About Us | MIS.W 公式サイト</title>
     <meta property="og:url" content="https://misw.jp/about" />
     <meta property="og:title" content="About Us | MIS.W 公式サイト" />
-    <%- include('_header') %>
+    <%- include('components/_header') %>
   </head>
   <body>
     <div id="wrapper" class="wrapper">
@@ -51,49 +51,7 @@
         </section>
 
         <div id="container" class="page_about">
-          <section id="intro" class="intro">
-            <h1>
-              <div class="main-ttl">
-                <div class="main-ttl-letters">サークル概要</div>
-                <div class="main-ttl-line"></div>
-              </div>
-            </h1>
-            <div class="main-content flex">
-              <div class="main-content-col -left">
-                <img src="img/logo.png" alt="misw_logo" />
-                <p>―早稲田大学経営情報学会―</p>
-                <p>Management Information Society of Waseda University</p>
-              </div>
-              <div class="main-content-col -right">
-                <table>
-                  <tr>
-                    <td>設立</td>
-                    <td>1969年4月16日</td>
-                  </tr>
-                  <tr>
-                    <td>部員数</td>
-                    <td>約70人 (2022年3月時点)</td>
-                  </tr>
-                  <tr>
-                    <td>活動時間</td>
-                    <td>水曜日21:00～22:30<br />土曜日14:00～15:30</td>
-                  </tr>
-                  <tr>
-                    <td>活動場所</td>
-                    <td>（新型コロナ感染拡大防止のため）<br />Discordによるオンライン活動</td>
-                  </tr>
-                  <tr>
-                    <td>部室</td>
-                    <td>戸山キャンパス学生会館　E927</td>
-                  </tr>
-                  <tr>
-                    <td>会費</td>
-                    <td>入会費1000円 半期1500円<br />(活動オンライン化に伴い変更)</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </section>
+          <%- include('components/_overview') %>
           <section id="anual" class="anual">
             <h1>
               <div class="main-ttl">
@@ -192,11 +150,11 @@
             </div>
           </section>
 
-          <%- include('_kanbu', {kanbu: kanbu}) %>
+          <%- include('components/_kanbu') %>
         </div>
       </main>
-      <%- include('_footer') %>
+      <%- include('components/_footer') %>
     </div>
-    <%- include('_analytics') %>
+    <%- include('components/_analytics') %>
   </body>
 </html>

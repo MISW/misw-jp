@@ -2,14 +2,14 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
-    "format": "prettier --write src/ && prettier --parser html --write src/**/*.ejs",
-    "format:check": "prettier --check src/ && prettier --check --parser html --write src/**/*.ejs",
+    "format": "prettier --write src/ && prettier --parser html --write src/**/*.ejs && prettier --parser yaml --write config.yaml",
+    "format:check": "prettier --check src/ && prettier --parser html --check src/**/*.ejs && prettier --parser yaml --check config.yaml",
     "lint": "ejslint  src/**/*.ejs",
     "squoosh": "squoosh-cli --webp auto src/img/**/*",
-    "start": "gulp"
+    "start": "gulp",
+    "watch": "gulp"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@squoosh/cli": "^0.7.2",
     "autoprefixer": "^10.4.13",

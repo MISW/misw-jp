@@ -4,7 +4,7 @@
     <title>MIS.W 公式サイト</title>
     <meta property="og:url" content="https://misw.jp/" />
     <meta property="og:title" content="MIS.W 公式サイト" />
-    <%- include('_header') %>
+    <%- include('components/_header') %>
   </head>
   <body>
     <div id="wrapper" class="wrapper">
@@ -47,7 +47,7 @@
           <img class="mv_picture -index" src="img/top-pc-back-1.png" alt="メインビジュアル" />
           <img class="mv_letters -index" src="img/top-pc-back-2.png" alt="メインビジュアル" />
           <div class="mv_side">
-            <%- include('_event', {event: event}) %>
+            <%- include('components/_event') %>
             <div class="timeline">
               <a class="twitter-timeline" href="https://twitter.com/misw_info?ref_src=twsrc%5Etfw">Tweets by misw_info</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -224,8 +224,8 @@
           </section>
         </div>
       </main>
-      <%- include('_footer') %>
+      <%- include('components/_footer') %>
     </div>
-    <%- include('_analytics') %>
+    <%- include('components/_analytics') %>
   </body>
 </html>

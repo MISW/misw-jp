@@ -1,0 +1,58 @@
+event:
+  url: 'https://event.misw.jp/wasedasai2022/'
+  image: 'https://event.misw.jp/wasedasai2022/img/ogp.png'
+
+overview:
+  a:
+    name: '設立'
+    data: '1969年4月16日'
+  b:
+    name: '部員数'
+    data: '約70人 (2022年3月時点)'
+  c:
+    name: '活動時間'
+    data: '水曜日21:00～22:30<br />土曜日14:00～15:30'
+  d:
+    name: '活動場所'
+    data: '（新型コロナ感染拡大防止のため）<br />Discordによるオンライン活動'
+  e:
+    name: '部室'
+    data: '戸山キャンパス学生会館　E927'
+  f:
+    name: '会費'
+    data: '入会費1000円 半期1500円<br />(活動オンライン化に伴い変更)'
+
+kanbu:
+  a:
+    role: '幹事長'
+    name: 'S-moto'
+    group: 'MIDI研'
+    image: 'img/kanbu/0.jpg'
+  b:
+    role: '副幹事長'
+    name: 'あんび'
+    group: 'CG研'
+    image: 'img/kanbu/1.jpg'
+  c:
+    role: '会計'
+    name: 'ななしろ'
+    group: 'プロ研'
+    image: 'img/kanbu/2.jpg'
+  d:
+    role: 'プログラミング研会長'
+    name: 'T_SUM_U'
+    group: 'プロ研'
+    image: 'img/kanbu/3.jpg'
+  e:
+    role: 'CG研会長'
+    name: 'ユチェ'
+    group: 'CG研'
+    image: 'img/kanbu/4.jpg'
+  f:
+    role: 'MIDI研会長'
+    name: '9W3R7Y'
+    group: 'MIDI研'
+    image: 'img/kanbu/5.jpg'
+
+footer:
+  copyright: 'Copyright (c) 2022, MIS.W（早稲田大学経営情報学会）All rights reserved.'
