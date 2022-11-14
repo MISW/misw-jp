@@ -84,8 +84,7 @@ function clean(cb) {
 exports.clean = clean;
 
 function watch(cb) {
-  gulp.watch(['./src/**/*.ejs'], build_ejs);
-  gulp.watch(['./config.yaml'], build_ejs);
+  gulp.watch(['./config.yaml', './src/**/*.ejs'], build_ejs);
   gulp.watch(['./src/**/*.sass', './src/**/*.scss'], build_sass);
   gulp.watch(['./src/**/*.js'], build_js);
   gulp.watch(['./src/img/**/*'], build_img);
