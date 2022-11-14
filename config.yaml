@@ -55,4 +55,4 @@ kanbu:
     image: 'img/kanbu/5.jpg'
 
 footer:
-  copyright: 'Copyright (c) 2022, MIS.W（早稲田大学経営情報学会）All rights reserved.'
+  copyright: 'Copyright (c) 2018-2022, MIS.W（早稲田大学経営情報学会）All rights reserved.'
