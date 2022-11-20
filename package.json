@@ -1,7 +1,7 @@
 {
   "scripts": {
     "clean": "gulp clean",
-    "build": "gulp build && prettier --write dist/**/*",
+    "build": "gulp build && prettier --parser html --write dist/**/*.html",
     "format": "prettier --write src/ && prettier --parser html --write src/**/*.ejs && prettier --parser yaml --write config.yaml",
     "format:check": "prettier --check src/ && prettier --parser html --check src/**/*.ejs && prettier --parser yaml --check config.yaml",
     "lint": "ejslint  src/**/*.ejs",
