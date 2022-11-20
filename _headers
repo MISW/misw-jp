@@ -12,3 +12,7 @@
 /js/*
   Access-Control-Allow-Origin: *
   X-Robots-Tag: nosnippet, noindex
+
+https://:misw-jp.pages.dev/*
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: nosnippet, noindex

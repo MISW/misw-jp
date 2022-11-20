@@ -55,4 +55,5 @@ kanbu:
     image: 'img/kanbu/5.jpg'
 
 footer:
+  contact: 'メールアドレス: misw.info☆gmail.com(☆を@に直して送信してください)<br />Twitter(<a href="https://twitter.com/misw_info" target="_blank" rel="noopener noreferrer">@misw_info</a>)のダイレクトメッセージにお送りいただくこともできます。'
   copyright: 'Copyright (c) 2018-2022, MIS.W（早稲田大学経営情報学会）All rights reserved.'

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head prefix="og: http://ogp.me/ns#">
+  <head prefix="og: https://ogp.me/ns#">
     <title>MIS.W 公式サイト</title>
     <meta property="og:url" content="https://misw.jp/" />
     <meta property="og:title" content="MIS.W 公式サイト" />
@@ -8,33 +8,7 @@
   </head>
   <body>
     <div id="wrapper" class="wrapper">
-      <header id="header" class="header">
-        <div class="header-logo">
-          <a href="index.html"><img src="img/logo.png" alt="MIS.W" /></a>
-        </div>
-        <div class="hamburger">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="hamburger-wrap"></div>
-        <nav class="header-nav">
-          <ul>
-            <li>
-              <a href="#top">Top</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="#works">Works</a>
-            </li>
-            <li>
-              <a href="#join">Join Us</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <%- include('components/_menu') %>
 
       <main>
         <div class="top-margin"></div>
@@ -190,36 +164,6 @@
               <div class="about-content-img">
                 <img src="img/midi.png" alt="midi" />
               </div>
-            </div>
-          </section>
-
-          <section id="works">
-            <h1>
-              <div class="main-ttl">
-                <div class="main-ttl-letters">Works</div>
-                <div class="main-ttl-line"></div>
-                <div class="main-ttl-letters">作品集</div>
-              </div>
-            </h1>
-            <div class="main-txt -center">
-              準備中…<br />
-              <br />
-              昨年度の早稲田祭に出品した作品は、<a href="https://event.misw.jp/wasedasai2021" target="_blank" rel="noopener noreferrer">こちら</a>
-              からご覧になれます。
-            </div>
-          </section>
-
-          <section id="join">
-            <h1>
-              <div class="main-ttl">
-                <div class="main-ttl-letters">Join Us</div>
-                <div class="main-ttl-line"></div>
-                <div class="main-ttl-letters">入会方法</div>
-              </div>
-            </h1>
-            <div class="main-txt -center">
-              今年度の入会案内は、<a href="https://event.misw.jp/shinkan2022/" target="_blank" rel="noopener noreferrer"> 新歓サイト2022</a
-              >にて詳しくご案内しております。
             </div>
           </section>
         </div>
