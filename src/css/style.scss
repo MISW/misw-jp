@@ -419,6 +419,14 @@ main {
       object-fit: cover;
       height: 100vh;
     }
+    img.mv_picture.-works {
+      object-fit: cover;
+      height: 100vh;
+    }
+    img.mv_picture.-join {
+      object-fit: cover;
+      height: 100vh;
+    }
     .mv_side {
       display: none;
     }
@@ -433,7 +441,7 @@ main {
     display: flex;
     flex-direction: column;
     width: calc(85% - 100px);
-    max-width: 1000px;
+    max-width: 1920px;
     background-color: #fff;
     padding: 50px;
     margin: 75px auto;
