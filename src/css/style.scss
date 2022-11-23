@@ -501,6 +501,12 @@ main {
       text-align: center;
     }
   }
+  #works-frame {
+    border: none;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    overflow: scroll;
+  }
 }
 
 #about {

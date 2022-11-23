@@ -26,20 +26,9 @@
 
         <div id="container">
           <section id="works">
-            <h1>
-              <div class="main-ttl">
-                <div class="main-ttl-letters">Works</div>
-                <div class="main-ttl-line"></div>
-                <div class="main-ttl-letters">作品集</div>
-              </div>
-            </h1>
-            <div class="main-txt -center">
-              準備中…<br />
-              <br />
-              今年度の早稲田祭に出品した作品は、<a href="https://event.misw.jp/wasedasai2022" target="_blank" rel="noopener noreferrer">こちら</a
-              >からご覧になれます。
-            </div>
           </section>
+          <iframe id="works-frame" src="<%- works.url %>#<%- works.id %>">
+          </iframe>
         </div>
       </main>
       <%- include('components/_footer') %>
