@@ -2,6 +2,15 @@ event:
   url: 'https://event.misw.jp/wasedasai2022/'
   image: 'https://event.misw.jp/wasedasai2022/img/ogp.png'
 
+works:
+  url: 'https://18dafcde6bdc7f4f399fe8197dd30da9.misw.jp/'
+  id: 'works-frame'
+
+jquery:
+  cdn: 'https://cdnjs.cloudflare.com/ajax/libs/jquery'
+  version: '3.6.1'
+  type: 'jquery.min.js'
+
 overview:
   a:
     name: '設立'
