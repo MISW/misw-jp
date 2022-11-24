@@ -26,7 +26,11 @@
 
         <div id="container">
           <section id="works">
+            <script src="js/iframeResizer.js"></script>
             <iframe class="works-frame" id="works-frame" src="<%- works.url %>#<%- works.id %>"></iframe>
+            <script>
+              iFrameResize({}, '#works-frame');
+            </script>
           </section>
         </div>
       </main>
