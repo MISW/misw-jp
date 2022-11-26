@@ -383,8 +383,9 @@ main {
     .timeline {
       flex-grow: 4;
       height: 50%;
-      border: solid #686868 1px;
-      overflow: hidden;
+      border: none;
+      overflow: scroll;
+      text-align: center;
     }
   }
   .mv_heading {
