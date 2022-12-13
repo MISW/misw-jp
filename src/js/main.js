@@ -1,10 +1,8 @@
 // $("セレクタ").メソッド("パラメータ[引数]");
 // HTMLが準備できたら、中身の記述を実行する
 // ここにjQueryの処理を記述
-
 $(function () {
   var h = $(window).height(); //windowの高さ(px) 1vh = h/100(px);
-
   //フェードイン
   $('#container > section')
     .not('#mv')
@@ -28,10 +26,8 @@ $(function () {
         $(_this).find('.main-ttl-line').removeClass('ttl-anime-line');
       }
     });
-
   //再読み込み時も表示
   jQuery(window).scroll();
-
   //ページ内リンクへのスムーズスクロール
   $('a[href^="#"]').click(function () {
     var speed = 1000;
@@ -48,14 +44,12 @@ $(function () {
     );
     return false;
   });
-
   //ハンバーガーメニュー
   $('.hamburger').click(function () {
     $('.hamburger-wrap').fadeToggle();
     $(this).toggleClass('open');
     $('.header-nav').toggleClass('open');
   });
-
   $(document).click(function (event) {
     var target = $(event.target);
     if (target.hasClass('hamburger-wrap')) {

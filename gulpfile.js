@@ -62,6 +62,7 @@ function browser_sync(cb) {
   browserSync({
     server: {
       baseDir: './dist/',
+      index: 'index.html',
     },
   });
   cb();

@@ -9,13 +9,11 @@
   <body>
     <div id="wrapper" class="wrapper">
       <%- include('components/_menu') %>
-
       <main>
         <div class="top-margin"></div>
         <div>
           <a id="backToTop" href="#"></a>
         </div>
-
         <section id="mv">
           <img class="mv_picture -works" src="img/back_green.png" alt="works_メイン" />
           <div class="mv_heading">
@@ -23,11 +21,10 @@
             <h3>作品紹介</h3>
           </div>
         </section>
-
         <div id="container">
           <section id="works">
             <script src="js/iframeResizer.js"></script>
-            <iframe class="works-frame" id="works-frame" src="<%- works.url %>#<%- works.id %>"></iframe>
+            <iframe class="works-frame" id="works-frame" src="<%- works.url %>#<%- works.id %>"> </iframe>
             <script>
               iFrameResize({}, '#works-frame');
             </script>
