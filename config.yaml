@@ -11,7 +11,7 @@ works:
 
 jquery:
   cdn: 'https://cdnjs.cloudflare.com/ajax/libs/jquery'
-  version: '3.6.2'
+  version: '3.6.3'
   type: 'jquery.min.js'
 
 overview:
