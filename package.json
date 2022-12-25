@@ -5,7 +5,7 @@
     "format": "prettier --write src/ && prettier --parser html --write src/**/*.ejs && prettier --parser yaml --write config.yaml",
     "format:check": "prettier --check src/ && prettier --parser html --check src/**/*.ejs && prettier --parser yaml --check config.yaml",
     "lint": "ejslint  src/**/*.ejs",
-    "squoosh": "squoosh-cli --webp auto src/img/**/*",
+    "squoosh": "squoosh-cli --webp auto src/img/**/*.{jpg,webp,avif,jxl,wp2,png} -d temp/",
     "start": "gulp",
     "watch": "gulp"
   },

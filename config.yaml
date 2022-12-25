@@ -1,18 +1,15 @@
 event:
-  url: 'https://event.misw.jp/wasedasai2022/'
-  image: 'img/ogp.png'
+  url: 'https://event.misw.jp/c101/'
+  image: 'images/og.webp'
 
 blog:
   url: 'https://blog.misw.jp/'
 
 works:
-  url: 'https://18dafcde6bdc7f4f399fe8197dd30da9.misw.jp/'
-  id: 'works-frame'
+  url: 'https://18dafcde6bdc7f4f399fe8197dd30da9.misw.jp/#works-frame'
 
 jquery:
-  cdn: 'https://cdnjs.cloudflare.com/ajax/libs/jquery'
-  version: '3.6.3'
-  type: 'jquery.min.js'
+  url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'
 
 overview:
   a:
@@ -39,33 +36,33 @@ kanbu:
     role: '幹事長'
     name: 'S-moto'
     group: 'MIDI研'
-    image: 'img/kanbu/0.jpg'
+    image: 'img/kanbu/0.webp'
   b:
     role: '副幹事長'
     name: 'あんび'
     group: 'CG研'
-    image: 'img/kanbu/1.jpg'
+    image: 'img/kanbu/1.webp'
   c:
     role: '会計'
     name: 'ななしろ'
     group: 'プロ研'
-    image: 'img/kanbu/2.jpg'
+    image: 'img/kanbu/2.webp'
   d:
     role: 'プログラミング研会長'
     name: 'T_SUM_U'
     group: 'プロ研'
-    image: 'img/kanbu/3.jpg'
+    image: 'img/kanbu/3.webp'
   e:
     role: 'CG研会長'
     name: 'ユチェ'
     group: 'CG研'
-    image: 'img/kanbu/4.jpg'
+    image: 'img/kanbu/4.webp'
   f:
     role: 'MIDI研会長'
     name: '9W3R7Y'
     group: 'MIDI研'
-    image: 'img/kanbu/5.jpg'
+    image: 'img/kanbu/5.webp'
 
 footer:
   contact: 'メールアドレス: misw.info☆gmail.com(☆を@に直して送信してください)<br />Twitter(<a href="https://twitter.com/misw_info" target="_blank" rel="noopener noreferrer">@misw_info</a>)のダイレクトメッセージにお送りいただくこともできます。'
-  copyright: 'Copyright (c) 2018-2022, MIS.W（早稲田大学経営情報学会）All rights reserved.'
+  copyright: 'Copyright (c) 2018-2023, MIS.W（早稲田大学経営情報学会）All rights reserved.'
