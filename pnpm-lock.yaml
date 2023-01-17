@@ -14,7 +14,7 @@ specifiers:
   gulp-sass: ^5.1.0
   gulp-uglify-es: ^3.0.0
   js-yaml: ^4.1.0
-  prettier: ^2.8.1
+  prettier: ^2.8.3
   sass: ^1.57.1
 
 devDependencies:
@@ -31,7 +31,7 @@ devDependencies:
   gulp-sass: 5.1.0
   gulp-uglify-es: 3.0.0
   js-yaml: 4.1.0
-  prettier: 2.8.1
+  prettier: 2.8.3
   sass: 1.57.1
 
 packages:
@@ -2888,8 +2888,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
