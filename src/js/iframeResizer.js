@@ -257,7 +257,13 @@
     function isMessageFromMetaParent() {
       // Test if this message is from a parent above us. This is an ugly test, however, updating
       // the message format would break backwards compatibility.
-      var retCode = messageData.type in { true: 1, false: 1, undefined: 1 };
+      var retCode =
+        messageData.type in
+        {
+          true: 1,
+          false: 1,
+          undefined: 1,
+        };
 
       if (retCode) {
         log(iframeId, 'Ignoring init message from meta parent page');
@@ -392,7 +398,12 @@
         }
       }
 
-      var offset = addOffset ? getElementPosition(messageData.iframe) : { x: 0, y: 0 },
+      var offset = addOffset
+          ? getElementPosition(messageData.iframe)
+          : {
+              x: 0,
+              y: 0,
+            },
         newPosition = calcOffset();
 
       log(iframeId, 'Reposition requested from iFrame (offset x:' + offset.x + ' y:' + offset.y + ')');
@@ -894,7 +905,12 @@
         resetRequertMethod = settings[iframeId] && settings[iframeId].heightCalculationMethod in resetRequiredMethods;
 
       if (!firstRun && resetRequertMethod) {
-        resetIFrame({ iframe: iframe, height: 0, width: 0, type: 'init' });
+        resetIFrame({
+          iframe: iframe,
+          height: 0,
+          width: 0,
+          type: 'init',
+        });
       }
     }
 
