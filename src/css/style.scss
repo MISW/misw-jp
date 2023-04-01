@@ -105,6 +105,9 @@ audio {
 .align-bottom {
   align-items: flex-end;
 }
+.justified {
+  text-align: justify;
+}
 
 @mixin flex-center {
   display: flex;
@@ -935,5 +938,53 @@ main {
   }
   100% {
     top: 30%;
+  }
+}
+
+
+/* join */
+.join-main_notice {
+  padding: calc(1rem - 0.75rem * 1 / 2) 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--grey4);
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+.join-procedure {
+  display: grid;
+  row-gap: 2rem;
+  counter-reset: attendCounter;
+}
+
+.join-procedure_step_heading {
+  margin: calc(-1 * 1.5rem * 0.25 / 2) 0;
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.join-procedure_step_heading::before {
+  counter-increment: attendCounter;
+  content: counter(attendCounter) '. ';
+}
+
+.join-procedure_step_content {
+  display: grid;
+  gap: 1rem;
+}
+
+.join-procedure_step_content_img {
+  object-fit: contain;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  background-color: var(--grey4);
+}
+
+@media screen and (min-width: 768px) {
+  .join-procedure_step_content {
+      grid-template-columns: 3fr 2fr;
+      align-items: center;
   }
 }
