@@ -22,13 +22,13 @@ overview:
     data: '1969年4月16日'
   b:
     name: '部員数'
-    data: '約{TODO}人 (2023年3月時点)'
+    data: '90人(内インカレ15人)(2023年3月時点)'
   c:
     name: '活動時間'
-    data: '水曜日21:00～22:30<br />土曜日14:00～15:30' #{TODO}: これ本当にあってる?
+    data: '木曜日17:00～19:00<br />土曜日14:00～16:00'
   d:
     name: '活動場所'
-    data: '（新型コロナ感染拡大防止のため）<br />Discordによるオンライン活動'
+    data: '木曜日 早稲田大学西早稲田キャンパス52号館302教室<br />土曜日 Discordによるオンライン活動'
   e:
     name: '部室'
     data: '戸山キャンパス学生会館　E927'
@@ -39,27 +39,27 @@ overview:
 kanbu:
   a:
     role: '幹事長'
-    name: 'S-moto'
-    group: 'MIDI研'
+    name: 'たまかけ'
+    group: 'プロ研'
     image: 'img/kanbu/0.webp'
   b:
     role: '副幹事長'
-    name: 'あんび'
-    group: 'CG研'
+    name: 'せいる'
+    group: 'MIDI研'
     image: 'img/kanbu/1.webp'
   c:
     role: '会計'
-    name: 'ななしろ'
+    name: 'Polar'
     group: 'プロ研'
     image: 'img/kanbu/2.webp'
   d:
     role: 'プログラミング研会長'
-    name: 'T_SUM_U'
+    name: '文月まぐ'
     group: 'プロ研'
     image: 'img/kanbu/3.webp'
   e:
     role: 'CG研会長'
-    name: 'ユチェ'
+    name: 'NOAH'
     group: 'CG研'
     image: 'img/kanbu/4.webp'
   f:
