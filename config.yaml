@@ -15,11 +15,6 @@ works:
 jquery:
   url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
 
-fee:
-  a:
-    name: '入会費' # = 新入生の会費 (overview.f.dataの一部に対応)
-    data: '1500'
-
 overview:
   a:
     name: '設立'
