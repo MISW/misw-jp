@@ -2,6 +2,10 @@ event:
   url: 'https://event.misw.jp/c101/'
   image: 'images/og.webp'
 
+join:
+  url: 'https://twitter.com/misw_info/status/1638361049505353728'
+  image: 'img/join-schedule.webp'
+
 blog:
   url: 'https://blog.misw.jp/'
 
@@ -31,10 +35,15 @@ overview:
     data: '木曜日 早稲田大学西早稲田キャンパス52号館302教室<br />土曜日 Discordによるオンライン活動'
   e:
     name: '部室'
-    data: '戸山キャンパス学生会館　E927'
+    data: '戸山キャンパス学生会館 E927'
   f:
-    name: '会費 (半期)'
-    data: '新入生 1500円<br/>既存生 3000円'
+    name: '会費(半期)'
+    a:
+      name: '新規入会'
+      data: '1500円'
+    b:
+      name: '継続'
+      data: '3000円'
 
 kanbu:
   a:
