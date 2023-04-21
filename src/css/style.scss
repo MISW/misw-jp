@@ -447,13 +447,11 @@ main {
     width: calc(85% - 100px);
     max-width: 1920px;
     background-color: #fff;
-    padding: 50px;
-    margin: 75px auto;
+    margin: auto;
   }
   @media screen and (max-width: 767px) {
     section {
-      padding: 2.5vw;
-      margin: 7.5vw 2.5vw;
+      margin: 2.5vw 2.5vw;
       width: auto;
     }
   }
@@ -507,6 +505,7 @@ main {
   }
   #works-frame {
     border: none;
+    height: 640px;
   }
 }
 
