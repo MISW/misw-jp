@@ -13,7 +13,7 @@ works:
   url: 'https://18dafcde6bdc7f4f399fe8197dd30da9.misw.jp/#works-frame'
 
 jquery:
-  url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
+  url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'
 
 overview:
   a:
