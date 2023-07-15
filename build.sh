@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-npm install -g pnpm
+corepack enable
+corepack prepare pnpm@latest --activate
 pnpm i --frozen-lockfile
 pnpm build
 mv -v _headers dist/
