@@ -10,10 +10,10 @@ blog:
   url: 'https://blog.misw.jp/'
 
 works:
-  url: 'https://works-misw-jp.tumblr.com/'
+  url: 'https://18dafcde6bdc7f4f399fe8197dd30da9.misw.jp/#works-frame'
 
 jquery:
-  url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'
+  url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'
 
 overview:
   a:
@@ -74,4 +74,4 @@ kanbu:
 
 footer:
   contact: 'メールアドレス: misw.info☆gmail.com(☆を@に直して送信してください)<br />Twitter(<a href="https://twitter.com/misw_info" target="_blank" rel="noopener noreferrer">@misw_info</a>)のダイレクトメッセージにお送りいただくこともできます。'
-  copyright: 'Copyright (c) 2018-2023, MIS.W（早稲田大学経営情報学会）All rights reserved.'
+  copyright: 'Copyright (c) 2018-2024, MIS.W（早稲田大学経営情報学会）All rights reserved.'
