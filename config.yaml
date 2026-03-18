@@ -21,13 +21,13 @@ overview:
     data: '1969年4月16日'
   b:
     name: '部員数(2023年3月時点)'
-    data: '90人 (内インカレ15人)'
+    data: '77人 (内インカレ8人)'
   c:
     name: '活動時間'
-    data: '木曜日: 17:00～19:00<br />土曜日: 14:00～16:00'
+    data: '週二回(曜日不定): 17:00～19:30<br />21:00～23:00'
   d:
     name: '活動場所'
-    data: '木曜日: 早稲田大学 西早稲田キャンパス 52号館 302教室<br />土曜日: MIS.W公式Discordサーバーでのオンライン活動'
+    data: '早稲田大学 西早稲田キャンパス 52号館<br />早稲田大学 戸山キャンパス 学生会館 E927'
   e:
     name: '部室'
     data: '早稲田大学 戸山キャンパス 学生会館 E927'
@@ -35,16 +35,16 @@ overview:
     name: '会費(半期)'
     a:
       name: '新規入会'
-      data: '1,500円'
+      data: '2000円'
     b:
       name: '継続会員'
-      data: '3,000円'
+      data: '4,000円'
 
 kanbu:
   a:
     role: '幹事長'
-    name: 'たまかけ'
-    group: 'プロ研'
+    name: 'おいしいごはん'
+    group: 'CG研'
     image: 'img/kanbu/0.webp'
   b:
     role: '副幹事長'
@@ -74,4 +74,4 @@ kanbu:
 
 footer:
   contact: 'メールアドレス: misw.info☆gmail.com(☆を@に直して送信してください)<br />Twitter(<a href="https://twitter.com/misw_info" target="_blank" rel="noopener noreferrer">@misw_info</a>)やInstagram(<a href="https://www.instagram.com/misw.info/" target="_blank" rel="noopener noreferrer">@misw.info</a>)のダイレクトメッセージにお送りいただくこともできます。'
-  copyright: 'Copyright (c) 2018-2025, MIS.W（早稲田大学経営情報学会）All rights reserved.'
+  copyright: 'Copyright (c) 2018-2026, MIS.W（早稲田大学経営情報学会）All rights reserved.'
