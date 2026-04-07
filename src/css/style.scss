@@ -980,6 +980,11 @@ main {
   background-color: var(--grey4);
 }
 
+.join-procedure_schedule_img {
+  width: 50%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .join-procedure_step_content {
     grid-template-columns: 3fr 2fr;
