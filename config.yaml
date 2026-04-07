@@ -3,7 +3,7 @@ event:
   image: 'images/og.webp'
 
 join:
-  url: 'https://twitter.com/misw_info/status/1638361049505353728'
+  url: 'https://x.com/misw_info/status/2039897989632909800'
   image: 'img/join-schedule.webp'
 
 blog:
@@ -20,7 +20,7 @@ overview:
     name: '設立'
     data: '1969年4月16日'
   b:
-    name: '部員数(2023年3月時点)'
+    name: '部員数(2026年3月時点)'
     data: '77人 (内インカレ8人)'
   c:
     name: '活動時間'
@@ -35,7 +35,7 @@ overview:
     name: '会費(半期)'
     a:
       name: '新規入会'
-      data: '2000円'
+      data: '2,000円'
     b:
       name: '継続会員'
       data: '4,000円'
@@ -48,27 +48,27 @@ kanbu:
     image: 'img/kanbu/0.webp'
   b:
     role: '副幹事長'
-    name: 'せいる'
+    name: 'Ichka'
     group: 'MIDI研'
     image: 'img/kanbu/1.webp'
   c:
     role: '会計'
-    name: 'Polar'
-    group: 'プロ研'
+    name: 'はる'
+    group: 'CG研'
     image: 'img/kanbu/2.webp'
   d:
     role: 'プログラミング研会長'
-    name: '文月まぐ'
+    name: 'ほたる'
     group: 'プロ研'
     image: 'img/kanbu/3.webp'
   e:
     role: 'CG研会長'
-    name: 'NOAH'
+    name: '一鶴'
     group: 'CG研'
     image: 'img/kanbu/4.webp'
   f:
     role: 'MIDI研会長'
-    name: '9W3R7Y'
+    name: 'Uchiwax, IF'
     group: 'MIDI研'
     image: 'img/kanbu/5.webp'
 
